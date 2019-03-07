@@ -1,4 +1,3 @@
-# put your python code here
 class Namespace:
     name = ''
     vars = ''
