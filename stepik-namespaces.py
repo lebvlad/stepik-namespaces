@@ -1,8 +1,5 @@
 class Namespace:
-    name = ''
-    vars = ''
-    parent = None
-
+    
     def add(self, var_name):
         self.vars += var_name
 
@@ -20,6 +17,7 @@ class Namespace:
     def __init__(self, name, parent):
         self.name = name
         self.parent = parent
+        self.vars = ''
 
 
 def read_lines(n):
